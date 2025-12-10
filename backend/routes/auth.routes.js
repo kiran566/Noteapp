@@ -10,8 +10,9 @@ router.post("/signup", signup);
 router.post("/login", login);
 router.get("/dashboard", protect, (req, res) => {
   res.json({
-    message: "Welcome to your dashboard!",
+    message: `Welcome to your dashboard!${req.user.name}`,
     userId: req.user.id,
+    
   });
 });
 
