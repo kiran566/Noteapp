@@ -1,12 +1,13 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
+pydantic-settings
 sqlalchemy
-pymongo
-PyJWT
+pymongo[srv]
+pyjwt
 python-dotenv
 pytest 
 httpx
 email-validator
 litellm
-datetime
+pwdlib[argon2]
