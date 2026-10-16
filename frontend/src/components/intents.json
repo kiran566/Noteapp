@@ -1,0 +1,223 @@
+{
+  "intents": [
+    {
+      "tag": "proprietorship_account_docs",
+      "patterns": [
+        "What are the documents required for opening a Current Account of a sole proprietorship firm",
+        "How to open a current account for a sole proprietorship",
+        "Documents for proprietorship firm account"
+      ],
+      "responses": [
+        "To open a Current Account for a sole proprietorship, you need: Proof of existence of the firm, Proof of address of the firm, and KYC of the proprietor. Accepted documents for existence include Shop & Establishment Certificates, Trade Licenses, or GST/VAT certificates. Address proof can be a landline bill, property deed, or TAN allotment letter."
+      ]
+    },
+    {
+      "tag": "branch_transfer",
+      "patterns": [
+        "Can I transfer my Current Account from one branch to another",
+        "How to transfer bank account to a different branch",
+        "process for branch transfer"
+      ],
+      "responses": [
+        "Yes, Current Accounts can be transferred between branches, though certain restrictions may apply. Please visit your nearest branch for specific details."
+      ]
+    },
+    {
+      "tag": "nri_proprietorship_declaration",
+      "patterns": [
+        "What extra documents are required for an NRI opening a Sole Proprietorship Current Account",
+        "Can an NRI open a business account in India",
+        "NRI proprietorship account rules"
+      ],
+      "responses": [
+        "NRIs/PIOs can open proprietorship firms if they declare that: the investment is via inward remittance or from NRE/FCNR/NRO accounts, the firm is not in agriculture, real estate, or print media, and that funds are non-repatriable."
+      ]
+    },
+    {
+      "tag": "llp_account_docs",
+      "patterns": [
+        "What are the documents required for opening a Current Account of Limited Liability Partnership",
+        "How to open an LLP bank account",
+        "LLP current account documents"
+      ],
+      "responses": [
+        "Required documents for an LLP include the Incorporation Document, LLP Agreement, Certificate of Incorporation, list of all Designated Partners with their DPIN, a resolution from the Partners, and KYC of the authorized signatories."
+      ]
+    },
+    {
+      "tag": "entity_address_change",
+      "patterns": [
+        "What documents are required to change the address of an entity",
+        "How to update business address in bank records",
+        "Change of address for company account"
+      ],
+      "responses": [
+        "To change an entity's address, you need a request letter signed by the authorized signatory along with address proof like a landline/electricity bill (under 4 months old), property ownership deed, or TAN allotment letter."
+      ]
+    },
+    {
+      "tag": "company_account_docs",
+      "patterns": [
+        "What are the documents required for opening Current Account of a company",
+        "documents for private limited company account",
+        "opening a business account for a limited company"
+      ],
+      "responses": [
+        "Private limited companies require MOA, AOA, Certificate of Incorporation, a current list of directors, and a Board Resolution. Public limited companies also need a Certificate of Commencement of Business."
+      ]
+    },
+    {
+      "tag": "partnership_firm_eligibility",
+      "patterns": [
+        "Who can be a partner in a partnership firm",
+        "Eligibility to become a partner",
+        "requirements for a partner"
+      ],
+      "responses": [
+        "A partner must be a major (above 18 years old), of sound mind, and must not be disqualified by law from entering into a contract."
+      ]
+    },
+    {
+      "tag": "outstation_cheque_time",
+      "patterns": [
+        "What is the time taken to realize outstation cheques",
+        "How long for outstation cheque clearing",
+        "clearing time for cheques from other cities"
+      ],
+      "responses": [
+        "For metros (Mumbai, Chennai, Kolkata, Delhi), it takes 7 working days. For other state capitals, it takes up to 10 working days. Other branch locations can take up to 14 working days."
+      ]
+    },
+    {
+      "tag": "individual_current_account",
+      "patterns": [
+        "Can an individual open a Current Account",
+        "Current account for individuals",
+        "individual business account"
+      ],
+      "responses": [
+        "Yes, individuals can open a Current Account using standard identity and address proof."
+      ]
+    },
+    {
+      "tag": "sez_eefc_restriction",
+      "patterns": [
+        "Can EEFC Account be opened by Special Economic Zone (SEZ) Units",
+        "SEZ unit EEFC account eligibility"
+      ],
+      "responses": [
+        "No, Special Economic Zone (SEZ) units are not permitted to open EEFC accounts."
+      ]
+    },
+    {
+      "tag": "netbanking_access_issue",
+      "patterns": [
+        "What should I do in case I am unable to access my Company's Current Account",
+        "unable to login to business netbanking",
+        "netbanking access problems for company"
+      ],
+      "responses": [
+        "Access issues often occur due to entering the wrong Customer ID. Separate IDs are created for the company and each authorized signatory; ensure you are using the correct Signatory ID to log in."
+      ]
+    },
+    {
+      "tag": "partnership_firm_docs",
+      "patterns": [
+        "What are the documents required for opening a Current Account of a partnership firm",
+        "How to open a partnership bank account",
+        "partnership deed requirements for bank"
+      ],
+      "responses": [
+        "Requirements include the Partnership Deed, proof of existence (like registration with the Registrar of Firms or a valid business license), firm PAN card, proof of address, and KYC for all authorized partners."
+      ]
+    },
+    {
+      "tag": "fixed_deposit_netbanking",
+      "patterns": [
+        "How can I book a Fixed Deposit through NetBanking",
+        "book FD online",
+        "online fixed deposit process"
+      ],
+      "responses": [
+        "Log in to NetBanking, select the 'Open New Fixed Deposit' option, enter the required values, and confirm. You must have online transaction rights and an updated PAN on record to use this service."
+      ]
+    },
+    {
+      "tag": "pan_update_netbanking",
+      "patterns": [
+        "How to update PAN card in bank records",
+        "update PAN online",
+        "steps to add PAN number to account"
+      ],
+      "responses": [
+        "Log in to NetBanking, click 'Contact Details,' and select 'Add/Update PAN number.' You can also submit a written request and a self-attested copy of your PAN card at a branch."
+      ]
+    },
+    {
+      "tag": "kid_account_standing_instruction",
+      "patterns": [
+        "How long the Standing Instruction given will be valid",
+        "kid's advantage account SI duration",
+        "mandatory SI for children's account"
+      ],
+      "responses": [
+        "Standing instructions for Kid's Advantage accounts are mandatory for at least 1 year. After that, a fresh request is needed to continue them."
+      ]
+    },
+    {
+      "tag": "debit_card_pin_blocked",
+      "patterns": [
+        "What is the procedure to follow if my Debit Card PIN is blocked",
+        "unblock ATM pin",
+        "wrong pin entered three times"
+      ],
+      "responses": [
+        "If you enter an incorrect PIN three times, access is blocked for security. You will need to regenerate your PIN through NetBanking or by contacting the bank."
+      ]
+    },
+    {
+      "tag": "loan_repayment_change",
+      "patterns": [
+        "How can I change the mode of repayment/ account for my loan",
+        "change EMI bank account",
+        "switch from cheques to standing instructions for loan"
+      ],
+      "responses": [
+        "Visit a Retail Loan Service Center with a request form and your new repayment instructions, such as an SI mandate for your HDFC Bank account or an ECS mandate for other bank accounts."
+      ]
+    },
+    {
+      "tag": "cibil_definition",
+      "patterns": [
+        "What is CIBIL",
+        "How do banks use credit reports",
+        "information about credit information bureau"
+      ],
+      "responses": [
+        "CIBIL (Credit Information Bureau India Limited) collects and shares credit data to help financial institutions make informed, objective, and faster credit decisions."
+      ]
+    },
+    {
+      "tag": "rtgs_neft_definition",
+      "patterns": [
+        "What is RTGS",
+        "What is NEFT",
+        "difference between RTGS and NEFT"
+      ],
+      "responses": [
+        "RTGS (Real Time Gross Settlement) is for real-time transfers of Rs. 1,00,000 or more. NEFT (National Electronic Funds Transfer) is used for amounts less than Rs. 1,00,000."
+      ]
+    },
+    {
+      "tag": "lpg_cng_noc",
+      "patterns": [
+        "How do I obtain a NOC from the bank for fitting an LPG/CNG kit on my vehicle",
+        "NOC for vehicle kit fitting",
+        "documents for fuel kit NOC"
+      ],
+      "responses": [
+        "Visit a Retail Loan Service Center with a request form, a self-attested copy of your RC book (and the original for validation), and a fee of Rs. 500."
+      ]
+    }
+  ]
+}
